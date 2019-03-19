@@ -27,3 +27,18 @@ print(afterMapList)
 
 afterReduce=reduce(lambda no1,no2 :int(no1)*int(no2),afterMapList)
 print("The Multiplication is : ",afterReduce)
+
+	#OutPut 
+	#PS F:\MyPractice\Assignments\Python\Assignment_4> python .\Ass_4_3.py
+	#Enter how many no :4
+	#Enter no : 89
+	#Enter no : 55
+	#Enter no : 44
+	#Enter no : 77
+	#Before Filter Function :
+	#['89', '55', '44', '77']
+	#After Filter Function :
+	#['89', '77']
+	#After Map Function :
+	#[99, 87]
+	#The Multiplication is :  8613
