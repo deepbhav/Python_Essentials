@@ -1,21 +1,4 @@
-
-# Solution 1
-
-# s = ''
-# def reverseString(str):
-#     global s
-#     for i in str:
-#         s = i + s
-#     return s
-
-# Solution 2
-
-strvar=''
-def reverseString(str):
-    for i in range(len(str)-1,-1,-1):
-        global strvar
-        strvar= strvar + str[i]
-    return strvar
+from MarvellousString import *
 
 acceptStr=input("Enter the String : ")
 print(reverseString(acceptStr))
